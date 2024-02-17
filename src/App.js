@@ -1,23 +1,48 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header><h1>Jammming</h1></header>
+      <div id="songSection">
+      <div id="searchSection">
+      <div id="searchBar">
+        <label for='searchBar'>Search</label>
+        <input type='text' name='searchBar'></input>
+
+      </div>
+      <div id="searchResults">
+        <p>mock song 1</p>
+
+      </div>
+      <div id="playList">
+
+      </div>
+      </div>
+      <div id="trackSection">
+        <h2>Tracks</h2>
+      <div id="trackList">
+
+      </div>
+      <div id="track">
+        <h2>Now Playing</h2>
+        <div id="trackInfo">
+          <div id="trackThumbnail" ></div>
+          <div id="trackData">
+            <p>Artist:</p>
+            <p>Title:</p>
+            <p>Album:</p>
+          </div>
+        </div>
+
+      </div>
+      </div>
+      </div>
+           
     </div>
   );
 }
