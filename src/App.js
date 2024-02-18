@@ -1,9 +1,10 @@
 
 import './App.css';
+import searchResults from './SearchResults/SearchResults';
 
 function App() {
 
-
+const displaySearchResults = searchResults();
 
   return (
     <div className="App">
@@ -16,7 +17,9 @@ function App() {
 
       </div>
       <div id="searchResults">
-        <p>mock song 1</p>
+        <ul>
+          {displaySearchResults}
+        </ul>
 
       </div>
       <div id="playList">

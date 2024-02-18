@@ -42,6 +42,15 @@ header {
 
 }
 
+#searchSection ul {
+  list-style: none;
+}
+
+#searchSection li {
+  border: solid 1px white;
+  padding: 1rem;
+}
+
 #trackSection {
   display: flex;
   flex-direction: column;
