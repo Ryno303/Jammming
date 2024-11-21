@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import './Searchbar.js';
-import './Searchbar.css';
-import './Tracklist.jsx'
+//import './Searchbar.js';
+//import './Searchbar.css';
+import './Tracklist.jsx';
 
 function App() {
   return (
@@ -20,10 +20,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-      <div id="Track-List">
+        <div id="Track-List">
 
       </div>
+      </header>
+      
     </div>
   );
 }

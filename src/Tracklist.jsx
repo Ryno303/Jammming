@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom';
-import './App'
+
 
 
 const tracks = document.getElementById('Track-List');
