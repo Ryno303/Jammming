@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-//import './Searchbar.js';
+import Searchbar from './Searchbar.js';
 //import './Searchbar.css';
 import MyList from './Tracklist.jsx';
 
@@ -21,6 +21,7 @@ function App() {
           Learn React
         </a>
         <MyList />  
+        <Searchbar />
       </header>
       <div>
       
