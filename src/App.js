@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 //import './Searchbar.js';
 //import './Searchbar.css';
-import './Tracklist.jsx';
+import MyList from './Tracklist.jsx';
 
 function App() {
   return (
@@ -20,10 +20,11 @@ function App() {
         >
           Learn React
         </a>
-        <div id="Track-List">
-
-      </div>
+        <MyList />  
       </header>
+      <div>
+      
+      </div>
       
     </div>
   );

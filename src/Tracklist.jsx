@@ -1,12 +1,11 @@
 import React from 'react';
-import { createRoot } from 'react-dom';
 
 
 
-const tracks = document.getElementById('Track-List');
-const root = createRoot(tracks);
 
-const myList = (
+export default function MyList () {
+  return (
+    <div>
     <ul>
       <li>This</li>
       <li>Is</li>
@@ -15,6 +14,7 @@ const myList = (
       <li>Test</li>
       
     </ul>
+    </div>
   );
+}
 
-  root.render(myList);
